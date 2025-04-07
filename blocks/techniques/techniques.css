@@ -1,0 +1,6 @@
+.techniques {
+    padding-top: 100px;
+    width: 80%;
+    margin: 0 auto 100px; /* Add bottom margin */
+    box-sizing: border-box;
+  }

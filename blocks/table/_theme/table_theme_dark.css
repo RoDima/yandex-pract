@@ -1,0 +1,9 @@
+.table_theme_dark {
+  width: 90%;
+  max-width: 1100px;
+  margin: 80px auto 0;
+  justify-content: space-between; /* Adjusted for Kaufman layout */
+  gap: 20px 20px; /* Ensure gap for dark theme */
+  position: relative;
+  z-index: 1;
+}

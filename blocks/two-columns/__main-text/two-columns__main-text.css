@@ -1,0 +1,4 @@
+.two-columns__main-text {
+    flex-basis: calc(100% - 175px - 60px); /* Calculate width based on brief and gap */
+    min-width: calc(784px - 175px - 60px); /* Minimum width calculation */
+  }

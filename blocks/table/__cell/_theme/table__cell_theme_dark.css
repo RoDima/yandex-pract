@@ -1,0 +1,13 @@
+.table__cell_theme_dark {
+  width: 200px;
+  margin: 0; /* Reset margin-top from default */
+  color: #ffffff;
+  z-index: 1;
+  position: relative;
+  margin-bottom: 80px; /* Add bottom margin for rows */
+}
+
+/* Remove bottom margin for the last row (adjust if more than 10 items) */
+.table_theme_dark .table__cell_theme_dark:nth-child(n+6) {
+  margin-bottom: 0;
+}

@@ -1,0 +1,11 @@
+.kaufman__triangle {
+  position: absolute;           /* Абсолютное позиционирование */
+  top: 0;                       /* Прижимаем к верху родителя (.kaufman) */
+  right: -210px;                /* Сдвигаем вправо за пределы родителя */
+  width: 877px;                 /* Ширина из PDF */
+  height: 877px;                /* Высота из PDF */
+  background-image: url('../../../images/kaufman-triangle.svg'); /* Путь к изображению */
+  background-size: contain;     /* Масштабируем изображение, чтобы оно поместилось */
+  background-repeat: no-repeat; /* Не повторяем фон */
+  z-index: 0;                   /* Размещаем под контентом (table, title, subtitle) */
+}
